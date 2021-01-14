@@ -81,7 +81,7 @@ public class CarPriceCalculator {
                  carPrice12 = cost+profit12+otv12+kdv12;
 
 
-            }else if(cost>85000 && cost<130000){
+            }else if(cost>=85000 && cost<130000){
 
                  profit1 = cost*0.6;
                  otv1 = (profit1 + cost)*0.5;
@@ -144,7 +144,7 @@ public class CarPriceCalculator {
                  carPrice12 = cost+profit12+otv12+kdv12;
 
 
-            }else if(cost>130000){
+            }else if(cost>=130000){
                  profit1 = cost*0.6;
                  otv1 = (profit1 + cost)*0.8;
                  kdv1  = (profit1 + cost + otv1)*0.18;
